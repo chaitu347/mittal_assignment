@@ -8,6 +8,6 @@ import Navbar from './contactform/Navbar.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Navbar/>
-    <Contactform />
+    
   </StrictMode>
 )
