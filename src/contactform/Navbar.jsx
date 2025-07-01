@@ -35,16 +35,13 @@ export default function FlashGraphersComplete() {
 
   return (
     <div className="min-h-screen">
-      {/* Navbar */}
       <nav className="bg-white shadow-lg">
         <div className="max-w-7xl mx-auto px-4">
           <div className="flex justify-between items-center h-16">
-            {/* Logo */}
             <div className="flex-shrink-0">
               <img className='h-10 w-38' src="https://res.cloudinary.com/dnbnst2wn/image/upload/v1751377044/74d9cf8adc9b1156b514910532efa7592284d751_hqa1iq.png" alt="FlashGraphers Logo" />
             </div>
 
-            {/* Navigation Items */}
             <div className="hidden md:block">
               <div className="ml-10 flex items-baseline space-x-4 relative">
                 {navItems.map((item) => (
@@ -63,7 +60,6 @@ export default function FlashGraphersComplete() {
               </div>
             </div>
 
-            {/* Mobile menu button */}
             <div className="md:hidden">
               <button className="text-gray-700 hover:text-blue-600 focus:outline-none">
                 <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -75,7 +71,6 @@ export default function FlashGraphersComplete() {
         </div>
       </nav>
 
-      {/* Contact Section with Background Image */}
       <section 
         className="relative bg-cover bg-center bg-no-repeat min-h-screen"
         style={{
@@ -83,7 +78,7 @@ export default function FlashGraphersComplete() {
         }}
         id="contact"
       >
-        <div className="absolute inset-0 bg-black bg-opacity-30"></div>
+        <div className="absolute inset-0 bg-black bg-opacity-30 "></div>
         
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
@@ -98,7 +93,6 @@ export default function FlashGraphersComplete() {
                 </p>
               </div>
 
-              {/* Contact Details */}
               <div className="space-y-4">
                 <div className="flex items-center space-x-3">
                   <div className="w-8 h-8 bg-[#4B806F] rounded-sm flex items-center justify-center shadow-lg">
@@ -120,7 +114,7 @@ export default function FlashGraphersComplete() {
                 </div>
               </div>
 
-              {/* Follow Us */}
+
               <div>
                 <h3 className="text-2xl font-bold mb-4 text-white drop-shadow-lg">
                   Follow <span className="text-[#4B806F]">Us</span>
@@ -138,7 +132,6 @@ export default function FlashGraphersComplete() {
                 </div>
               </div>
 
-              {/* Decorative Element */}
               <div className="relative mt-8">
                 <div className="absolute bottom-0 left-0 w-48 h-48 opacity-20">
                   <div className="w-full h-full bg-gradient-to-br from-[#4B806F] to-green-700 rounded-full blur-3xl"></div>
@@ -146,7 +139,7 @@ export default function FlashGraphersComplete() {
               </div>
             </div>
 
-            {/* Right Side - Contact Form */}
+       
             <div className="bg-gray-900 bg-opacity-90 p-8 rounded-lg backdrop-blur-sm">
               <div className="space-y-6">
                 <div>
@@ -236,7 +229,6 @@ export default function FlashGraphersComplete() {
             </div>
           </div>
 
-          {/* Copyright */}
           <div className="text-center pt-8 border-t border-gray-300">
             <p className="text-gray-500 text-sm">
               © 2025 FlashGraphers. All rights reserved.
